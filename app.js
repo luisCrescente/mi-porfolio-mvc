@@ -14,10 +14,3 @@ app.listen ( 3004 , () => {
 
 
 
-app.get('/',(req,res)=>{
-    res.sendFile(path.resolve(__dirname,'./views/home.html'));
-});
-
-app.get('/about',(req,res)=>{
-    res.sendFile(path.resolve(__dirname, 'views/about.html'));
-});
