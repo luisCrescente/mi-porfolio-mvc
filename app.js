@@ -1,7 +1,7 @@
 const express = require ( 'express' );
 const path = require('path');
 const app = express ();
-const rutasMain = require("../mi_porfolio_mvc/routers/main.js")
+const rutasMain = require("./routers/main")
 
 const publicPath = path.resolve(__dirname,'./public');
 app.use(express.static(publicPath));
